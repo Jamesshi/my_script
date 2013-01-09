@@ -1,6 +1,5 @@
-#watch memery is any process eat mem more than 5M echo it to mem_log.txt
-#it works as cron job
 #!/bin/bash
+
 function watch_mem()
 {
 while :
@@ -10,12 +9,10 @@ sleep 5;
 
 done;
 }
-count=`pgrep monitor_mem.sh | wc -l`
-#echo $count
+count=`pgrep monitor_mem2.sh | wc -l`
 if [ $count -eq 2 ];then
 	count=0
 	watch_mem
 else
 	exit
 fi
-#exit
