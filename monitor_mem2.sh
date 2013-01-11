@@ -1,6 +1,10 @@
 #watch memery is any process eat mem more than 5M echo it to mem_log.txt
 #it works as cron job
 #!/bin/bash
+
+# program: monitor.sh
+
+
 function watch_mem()
 {
 while :
