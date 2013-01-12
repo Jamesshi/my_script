@@ -1,7 +1,13 @@
 #!/bin/bash
+<<<<<<< HEAD
 function watch_cpu(){
 ps aux | awk 'NR>2{print $3, $2, $1 }' | sort -rnk 1,3 | awk '$1>2.0{"date"|getline date;print date;print "These prosess used cpu more than 2%"; printf "%d\n",$2}' >> ./cpu_log.txt
 }
+=======
+
+# program: monitor.sh
+
+>>>>>>> 145680a313bcf3a5c4d88621cb4451a5977b12c7
 
 function watch_mem()
 {
