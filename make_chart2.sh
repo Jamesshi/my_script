@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #该脚本应当运行在WFPrepayment目录
-#该脚本将进行结果输出到stdout
+#该脚本将运行结果输出到stdout
 #从fn30.txt fh30.txt g130.txt g230.txt fn15.txt fh15.txt g115.txt g215.txt文件中提取数据
 #Aggregate行,从以上文件中提取出year是All，CPN也是All，Nov.的数据
 #2.0%至6.5%的数据是year为All，CPN是对应的值，Nov.的数据
